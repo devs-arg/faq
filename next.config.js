@@ -8,6 +8,6 @@ module.exports = {
     images: {
       unoptimized: true,
     },
-    basePath: '/faq/',
+    basePath: '/faq',
   }),
 }
