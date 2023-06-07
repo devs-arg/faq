@@ -3,11 +3,13 @@ const withNextra = require('nextra')({
   themeConfig: './config/docs-theme.tsx',
 })
 
+const isDev = process.env.NODE_ENV !== 'production';
+
 module.exports = {
   ...withNextra({
     images: {
       unoptimized: true,
     },
-    basePath: '/faq',
+    basePath: isDev ? '' : '/faq',
   }),
 }
