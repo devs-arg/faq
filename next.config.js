@@ -3,4 +3,11 @@ const withNextra = require('nextra')({
   themeConfig: './config/docs-theme.tsx',
 })
 
-module.exports = withNextra()
+module.exports = {
+  ...withNextra({
+    images: {
+      unoptimized: true,
+    },
+    basePath: '',
+  }),
+}
