@@ -1,0 +1,32 @@
+{
+  "name": "@devs-arg/faq",
+  "version": "0.0.1",
+  "description": "A frequently asked questions website",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devs-arg/faq.git"
+  },
+  "author": "DevsArg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devs-arg/faq/issues"
+  },
+  "homepage": "https://github.com/devs-arg/faq/",
+  "dependencies": {
+    "next": "13.4.4",
+    "next-seo": "^6.0.0",
+    "nextra": "2.7.1",
+    "nextra-theme-docs": "2.7.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.0",
+    "typescript": "5.1.3"
+  }
+}
