@@ -1,6 +1,8 @@
 {
-  "lenguajes": "Lenguajes",
-  "cursos": "Cursos",
-  "carreras": "Carreras",
-  "recursos": "Recursos"
+    "lenguajes": "Lenguajes",
+    "cursos": "Cursos",
+    "carreras": "Carreras",
+    "recursos": "Recursos",
+    "bootcamps": "Bootcamps"
 }
+
