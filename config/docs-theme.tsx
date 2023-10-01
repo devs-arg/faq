@@ -2,6 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import { RedditIcon } from '../components/icons/reddit'
 import { useSeoConfig } from './seo'
+import { Footer } from './footer'
 
 const docsTheme: DocsThemeConfig = {
   faviconGlyph: '🇦🇷',
@@ -31,7 +32,7 @@ const docsTheme: DocsThemeConfig = {
     text: 'Colaborar ->',
   },
   footer: {
-    component: null,
+    component: Footer,
   },
   useNextSeoProps: useSeoConfig
 }
