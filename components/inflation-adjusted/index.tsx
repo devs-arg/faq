@@ -4,7 +4,7 @@ type InflationAdjustedProps = {
   date: string
 }
 
-const ANUAL_INFLATION = 108.8
+const ANUAL_INFLATION = 113.4
 const DAILY_INFLATION = ANUAL_INFLATION / 365
 const MILISECONDS_IN_DAY = 1000 * 60 * 60 * 24
 
