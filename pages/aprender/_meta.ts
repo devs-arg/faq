@@ -1,4 +1,4 @@
-{
+export default {
     "lenguajes": "Lenguajes",
     "cursos": "Cursos",
     "carreras": "Carreras",

@@ -1,12 +1,12 @@
 import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
 import { RedditIcon } from '../components/icons/reddit'
-import { useSeoConfig } from './seo'
 import { Footer } from './footer'
+import { useHead } from './head'
 
-const docsTheme: DocsThemeConfig = {
+const docsTheme = {
   faviconGlyph: '🇦🇷',
   logo: <strong>DevsArg - FAQ</strong>,
+  head: useHead,
   search: {
     placeholder: 'Buscar...',
     emptyResult: 'No se encontraron resultados',
@@ -29,12 +29,11 @@ const docsTheme: DocsThemeConfig = {
 
   },
   editLink: {
-    text: 'Colaborar ->',
+    content: 'Colaborar ->',
   },
   footer: {
     component: Footer,
   },
-  useNextSeoProps: useSeoConfig
 }
 
 export default docsTheme
