@@ -8,6 +8,7 @@ const withNextra = nextra({
 const isDev = process.env.NODE_ENV !== 'production';
 
 export default withNextra({
+  output: 'export',
   images: {
     unoptimized: true,
   },
