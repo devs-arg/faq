@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/devs-arg/faq/",
   "dependencies": {
-    "next": "14.2.14",
+    "next": "15.0.2",
     "next-seo": "6.6.0",
     "nextra": "3.0.2",
     "nextra-theme-docs": "3.0.2",
